@@ -34,6 +34,6 @@ jobs:
         run: |
           python -m pip install -U pip
           pip install cumulusci
-      - name: Deploy and load sample data
+      - name: Deploy and load sample dataa
         run: |
           cci flow run dev_org --org dev --delete-org
